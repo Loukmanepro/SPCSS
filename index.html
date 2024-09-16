@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPCSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SPCSS</h1>
+            <img src="cs_logo.png" alt="SPCSS Logo" class="logo">
+        </header>
+
+        <div class="server-input">
+            <label for="server-url">Server URL:</label>
+            <input type="text" id="server-url" placeholder="Enter server URL">
+            <button id="start-scan">Start Scan</button>
+        </div>
+
+        <div class="server-info">
+            <h2>Server Information</h2>
+            <p>Name: <span id="server-name">N/A</span></p>
+            <p>Owner: <span id="server-owner">N/A</span></p>
+            <p>Location: <span id="server-location">N/A</span></p>
+            <p>Type: <span id="server-type">N/A</span></p>
+        </div>
+
+        <div class="server-data">
+            <h2>Server Data</h2>
+            <p>Players: <span id="player-count">N/A</span></p>
+            <p>Average Ping: <span id="avg-ping">N/A</span></p>
+            <p>Player Accounts: <span id="player-accounts">N/A</span></p>
+        </div>
+
+        <div class="analysis-results">
+            <h2>Analysis Results</h2>
+            <div id="warnings"></div>
+        </div>
+
+        <footer>
+            <p>by loukmane hadj said</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
